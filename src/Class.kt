@@ -1,8 +1,8 @@
-class Apple(color:String, shape: String) {
+class Apple() {
     var color:String? = null
     var shape:String? = null
 
-    init {
+    constructor(color:String, shape: String): this() {
         this.color = color
         this.shape = shape
     }
