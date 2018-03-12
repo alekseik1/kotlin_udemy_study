@@ -1,7 +1,17 @@
 fun main(args:Array<String>) {
-    var name = "Aleksei"
-    var age = 18
-    var phone:Int = 123456789
+    //Int
+    var a:Int = 20
+    var b:Int = -10
 
-    println("My name is " + name + " and I'm " + age + " years old. My phone number is " + phone)
+    //String
+    var name:String = "Aleksei"
+
+    //float
+    var sum:Float = 20.6F
+
+    //char
+    var option:Char = 'y'
+
+    //boolean
+    var test:Boolean = true
 }
